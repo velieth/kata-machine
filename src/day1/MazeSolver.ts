@@ -40,6 +40,7 @@ function walk(maze: string[], wall: string, curr: Point, end: Point, seen: boole
         }
 
         path.pop();
+        
         return false;
 }
 

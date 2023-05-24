@@ -35,7 +35,7 @@ export default class Queue<T> {
 
         head.next = undefined;
 
-        return head.value;
+        return head?.value;
 }
     peek(): T | undefined {
         return this.head?.value;
